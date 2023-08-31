@@ -1,14 +1,17 @@
 # Scoop Bucket 
 
 # optional proxy 
+
 * scoop config proxy webproxy.mycompany.com:8080
 * $env:no_proxy = "mycompany.com"
 
 # run server
+
 ```
 synergys --debug INFO --name server --address :8080 -c configuration-demo.cfg --no-daemon
 ```
 # run client
+
 ```
 synergyc.exe --name client --no-daemon --enable-drag-drop --restart <host>:8080
 ```
