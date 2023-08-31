@@ -1,6 +1,6 @@
-# Scoop Bucket 
+# Scoop Bucket
 
-# optional proxy 
+# optional proxy
 
 * scoop config proxy webproxy.mycompany.com:8080
 * $env:no_proxy = "mycompany.com"
