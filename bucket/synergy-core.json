@@ -2,12 +2,6 @@
     "version": "1.14.7.5",
     "description": "Portable synergy core",
     "homepage": "https://github.com/symless/synergy-core",
-    "license": "MIT",
-    "notes": "",
-    "architecture": {
-        "64bit": {
-            "url": "https://github.com/dlozynski/synergy-core/releases/download/1.14.7.5.1-snapshot/synergy-core-win-x64.zip"
-        }
-    }
+    "url": "https://github.com/dlozynski/synergy-core/releases/download/1.14.7.5.1-snapshot/synergy-core-win-x64.zip",
     "bin": "synergyc.exe"
 }
