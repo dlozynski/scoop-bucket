@@ -1,11 +1,21 @@
-# Scoop Bucket Template
+# Scoop Bucket 
 
-<!-- Uncomment the following line after replacing placeholders -->
-<!-- [![Tests](https://github.com/<username>/<bucketname>/actions/workflows/ci.yml/badge.svg)](https://github.com/<username>/<bucketname>/actions/workflows/ci.yml) [![Excavator](https://github.com/<username>/<bucketname>/actions/workflows/excavator.yml/badge.svg)](https://github.com/<username>/<bucketname>/actions/workflows/excavator.yml) -->
+# optional proxy 
+* scoop config proxy webproxy.mycompany.com:8080
+* $env:no_proxy = "mycompany.com"
 
-Template bucket for [Scoop](https://scoop.sh), the Windows command-line installer.
+# run server
+```
+synergys --debug INFO --name server --address :8080 -c configuration-demo.cfg --no-daemon
+```
+# run client
+```
+synergyc.exe --name client --no-daemon --enable-drag-drop --restart <host>:8080
+```
+* host - server ip
 
-## How do I use this template?
+
+## Usage of Scoop template?
 
 1. Generate your own copy of this repository with the "Use this template"
    button.
@@ -31,10 +41,3 @@ After manifests have been committed and pushed, run the following:
 scoop bucket add <bucketname> https://github.com/<username>/<bucketname>
 scoop install <bucketname>/<manifestname>
 ```
-
-## How do I contribute new manifests?
-
-To make a new manifest contribution, please read the [Contributing
-Guide](https://github.com/ScoopInstaller/.github/blob/main/.github/CONTRIBUTING.md)
-and [App Manifests](https://github.com/ScoopInstaller/Scoop/wiki/App-Manifests)
-wiki page.
