@@ -5,7 +5,7 @@
     "license": "GPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Nevuly/WSL2-Linux-Kernel-Rolling/releases/download/linux-wsl-stable-$version/bzImage-x86_64-addon.vhdx",
+            "url": "https://github.com/Nevuly/WSL2-Linux-Kernel-Rolling/releases/download/linux-wsl-stable-6.15.0/bzImage-x86_64-addon.vhdx",
             "hash": "c6b33a274969d37280e1c6ee56b60d18494746f24449a7831ae76a16ef418fe7",
             "post_install": [
                 "###########################################",
@@ -31,7 +31,7 @@
             ]
         },
         "arm64": {
-            "url": "https://github.com/Nevuly/WSL2-Linux-Kernel-Rolling/releases/download/linux-wsl-stable-$version/Image-arm64-addon.vhdx",
+            "url": "https://github.com/Nevuly/WSL2-Linux-Kernel-Rolling/releases/download/linux-wsl-stable-6.15.0/Image-arm64-addon.vhdx",
             "hash": "8aebb41934836f55141c756ec4a58668b6469dcecc86dd617c4bf33b0540055b",
             "post_install": [
                 "###########################################",
