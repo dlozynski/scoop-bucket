@@ -1,12 +1,12 @@
 {
-    "version": "6.17.0",
+    "version": "7.0.9",
     "description": "Rolling Release Stable Kernel Modules for Windows Subsystem for Linux2 (WSL2)",
     "homepage": "https://github.com/Nevuly/WSL2-Linux-Kernel-Rolling",
     "license": "GPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Nevuly/WSL2-Linux-Kernel-Rolling/releases/download/linux-wsl-stable-6.17.0/bzImage-x86_64-addon.vhdx",
-            "hash": "63b090e75d72c272c1eb6de9d35e40f443ed3a6f28f2139bd57d1275e18f6d92",
+            "url": "https://github.com/Nevuly/WSL2-Linux-Kernel-Rolling/releases/download/linux-wsl-stable-7.0.9/bzImage-x86_64-addon.vhdx",
+            "hash": "df78df2bf19e802155594577e3460d8525af1f88a9be00773cd18849359bc132",
             "post_install": [
                 "###########################################",
                 "# Set WSL2 rolling kernel modules in `.wslconfig` #",
@@ -31,8 +31,8 @@
             ]
         },
         "arm64": {
-            "url": "https://github.com/Nevuly/WSL2-Linux-Kernel-Rolling/releases/download/linux-wsl-stable-6.17.0/Image-arm64-addon.vhdx",
-            "hash": "9d2e3f84f1b1c58ee383c141ece325e30fb33656d4f5e971549fcb3dc2d05f9a",
+            "url": "https://github.com/Nevuly/WSL2-Linux-Kernel-Rolling/releases/download/linux-wsl-stable-7.0.9/Image-arm64-addon.vhdx",
+            "hash": "a64d79df3d0c578c0fec7e6f5c9816951a5fdb10e4d5906137eaff136831e4c6",
             "post_install": [
                 "###########################################",
                 "# Set WSL2 rolling kernel modules in `.wslconfig` #",
